@@ -1,54 +1,57 @@
-# Starlight Starter Kit: Basics
+# Sendit
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Sendit is a polished, marketing website template for Astro. Browse through a [live demo](https://top-quail.cloudvent.net/).
 
+![Sendit template screenshot](public/images/_screenshot.png)
+
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-astro-template)
+
+## Features
+
+- Pre-built pages
+- Pre-styled components
+- Blog with pagination and category pages
+- Configurable navigation and footer
+- Multiple hero options
+- Configurable theme colors
+- Optimised for editing in [CloudCannon](https://cloudcannon.com/)
+- Live, visual editing powered by [Bookshop](https://github.com/CloudCannon/bookshop)
+
+## Setup
+
+1. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/)
+   or Astro locally).
+
+## Develop
+
+Sendit is built with [Astro](https://astro.build/).
+
+```bash
+$ npm install
+$ npm run dev
 ```
-npm create astro@latest -- --template starlight
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## Editing
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Sendit is set up for adding, updating and removing pages, components, posts, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
-## 🚀 Project Structure
+### Posts
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+- Add, update or remove a post in the _Posts_ collection.
+- Change the defaults when new posts are created in `content/posts/_defaults.md`.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+### Company details
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+- Reused around the site to save multiple editing locations.
+- Set in the _Data_ / _Company_ section.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+### Nav/footer details
 
-Static assets, like favicons, can be placed in the `public/` directory.
+- Reused around the site to save multiple editing locations.
+- Set in the _Site Navigation_ section with respective names
 
-## 🧞 Commands
+### Theme colors
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- Theme colors can be set in  _Theme Palette_
+- The main colors are set and variants of them are computed
+- The colors will update on the next build
