@@ -11,15 +11,16 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Beautiful email campaigns
+    title: Investing in Advancing the Bold Vision of Cancer Care Equity
     description: >-
-      With Sendit, you can quickly create beautiful rich emails that capture a
-      reader's attention, engage them, and convert them into customers.
+      Cancer and its treatment impact patients and their families emotionally,
+      spiritually, socially, and economically. ACCE is committed to providing
+      support throughout this journey.
     image: /images/hero/hero-image-2.png
-    image_alt: Reports dashboard
+    image_alt: Global campaign image
     button:
-      text: Try This Free
-      link: /signup/
+      text: Donate Now
+      link: /donate/
   - _bookshop_name: global/counter
     title: Scale your
     title_suffix: Business
@@ -49,45 +50,45 @@ content_blocks:
     image_alt: Thumbnail for video
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
-    title: "Sendit "
-    title_suffix: Features
+    title: "Our Vision, Our"
+    title_suffix: Mission
     remove_top_padding: true
     description: >-
-      Our platform offers the most advanced features including automated email
-      content creation, dynamic personalization, and customer segmentation.
+      Your donation contributes to providing cures and care, offering hope and
+      compassion, and promoting equity in cancer treatment
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-one.png
     image_alt: Message inbox
-    title: Email Campaign in one minute
+    title: Invest in Cancer Care Equity
     description: >-
-      Send an email campaign with one click, in just minutes. Automate your
-      emails and content, while keeping the human touch.
+      Your donation contributes to providing cures and care, offering hope and
+      compassion, and promoting equity in cancer treatment.
     button:
-      link: /signup
-      text: Try This Free
+      link: /donate/
+      text: Donate Now
     reversed: false
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-two.png
     image_alt: Visitor chart
-    title: See every Lead in one Place
+    title: Our Ambitious Projects
     description: >-
-      Sales analytics and automation made simple: see every sales lead in one
-      place, regardless of where it came from.
+      Through our projects, ACCE will lead efforts to achieve equity in cancer
+      care by addressing persistent disparities across the entire continuum of
+      cancer care.
     button:
-      link: /signup
-      text: Try This Free
+      link: /projects/
+      text: Learn More
     reversed: true
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-three.png
     image_alt: File upload
-    title: 100% free uploads
+    title: Get Involved
     description: >-
-      Sendit is used by everyone from small businesses to fortune 500 companies.
-      Browse our collection of email marketing templates and start sending
-      beautiful emails in minutes.
+      There are numerous ways to get involved with ACCE and make a meaningful
+      impact in the lives of patients with cancer. Join the Alliance today.
     button:
-      link: /signup
-      text: Try This Free
+      link: /get-involved/
+      text: Join Us
     reversed: false
   - _bookshop_name: global/testimonial
     title: Build relationships that
