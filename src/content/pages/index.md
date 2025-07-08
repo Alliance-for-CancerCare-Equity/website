@@ -22,32 +22,32 @@ content_blocks:
       text: Donate Now
       link: /donate/
   - _bookshop_name: global/counter
-    title: Scale your
-    title_suffix: Business
+    title: Our Impact
+    title_suffix: "So Far"
     description: >-
-      We have an extensive library of pre-written sales emails, proven marketing
-      templates, and more to get you started on your next project.
+      Thanks to the generosity of our supporters, ACCE continues to expand
+      access to lifesaving cancer care.
     alternate_style: false
     numbers:
       - prefix: $
-        number: 200
-        suffix: m
-        text: Venture capital raised
-      - prefix:
-        number: 2016
-        suffix:
-        text: Established in
-      - prefix:
         number: 40
+        suffix: k+
+        text: Dollars raised
+      - prefix:
+        number: 2023
+        suffix:
+        text: Started in
+      - prefix:
+        number: 10
         suffix: +
         text: Amazing team members
       - prefix:
-        number: 4322
+        number: 20
         suffix: +
-        text: Active users and growing
+        text: People helped
   - _bookshop_name: home/video
     image: /images/video/video-thum.jpg
-    image_alt: Thumbnail for video
+    image_alt: ACCE introduction video thumbnail
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
     title: "Our Vision, Our"
@@ -91,31 +91,31 @@ content_blocks:
       text: Join Us
     reversed: false
   - _bookshop_name: global/testimonial
-    title: Build relationships that
-    title_suffix: last
+    title: Stories from our
+    title_suffix: Community
     description: >-
-      Customers from around the world are building game changing email marketing
-      campaigns.
+      Hear how volunteers, partners, and donors are making a tangible
+      difference for people facing cancer.
     slider:
       - image: /images/testimonial/logo-2.jpg
-        image_alt: Profile photo of Pete Fish
-        author: Pete Fish
-        designation: CMO at Clear Appeal
+        image_alt: Volunteer portrait
+        author: Sarah Thompson
+        designation: Volunteer
         message: >-
-          Sendit has taken Clear Appeal to the next level with it's beautiful
-          targetted email campaigns.
+          Supporting ACCE lets me directly help patients in need and see the
+          impact of our work.
       - image: /images/testimonial/logo-3.jpg
-        image_alt: Profile photo of Dolly Watson
-        author: Dolly Watson
-        designation: Digital Marketer at Time Cop
+        image_alt: Doctor portrait
+        author: Dr. Kojo Mensah
+        designation: Oncologist Partner
         message: >-
-          Wow, what a difference Sendit has made. My customers are more engaged
-          than ever.
+          The Alliance's support enables essential treatments for my patients in
+          Ghana.
       - image: /images/testimonial/logo-4.jpg
-        image_alt: Profile photo of Simon Moriarty
-        author: Simon Moriarty
-        designation: Head of Marketing at Pinnacle Mines
+        image_alt: Donor portrait
+        author: Emily Chen
+        designation: Donor
         message: >-
-          I can't imagine life without Sendit now, I have no idea how we were
-          surviving before.
+          It's inspiring to witness the lives changed through even small
+          contributions.
 ---
