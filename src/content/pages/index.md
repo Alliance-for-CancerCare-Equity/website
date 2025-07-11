@@ -16,7 +16,7 @@ content_blocks:
       Cancer and its treatment impact patients and their families emotionally,
       spiritually, socially, and economically. ACCE is committed to providing
       support throughout this journey.
-    image: /images/hero/hero-image-2.png
+    image:
     image_alt: Global campaign image
     button:
       text: Donate Now
@@ -30,21 +30,21 @@ content_blocks:
     alternate_style: false
     numbers:
       - prefix: $
-        number: 40
+        number: 20
         suffix: k+
-        text: Dollars raised
+        text: Raised to date
       - prefix:
         number: 2023
         suffix:
-        text: Started in
+        text: Established in
       - prefix:
-        number: 10
+        number: 5
         suffix: +
         text: Amazing team members
       - prefix:
-        number: 20
+        number: 10
         suffix: +
-        text: People helped
+        text: Patients funded
   - _bookshop_name: home/video
     image: /images/video/video-thum.jpg
     image_alt: ACCE introduction video thumbnail
