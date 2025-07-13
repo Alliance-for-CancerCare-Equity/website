@@ -1,6 +1,6 @@
 {
   "logo": "images/footer-logo.svg",
-  "logo_url": "/",
+  "logo_url": "",
   "copyright": "Alliance for Cancer Care Equity. All rights reserved.",
   "social": [
     {
@@ -25,19 +25,19 @@
       "title": "Navigate",
       "links": [
         {
-          "link": "/",
+          "link": "",
           "text": "Home"
         },
         {
-          "link": "/about/",
+          "link": "about/",
           "text": "About Us"
         },
         {
-          "link": "/features/",
+          "link": "features/",
           "text": "Our Projects"
         },
         {
-          "link": "/contact/",
+          "link": "contact/",
           "text": "Contact"
         }
       ]
@@ -46,15 +46,15 @@
       "title": "Get Involved",
       "links": [
         {
-          "link": "/pricing/",
+          "link": "pricing/",
           "text": "Donate"
         },
         {
-          "link": "/contact/",
+          "link": "contact/",
           "text": "Volunteer"
         },
         {
-          "link": "/contact/",
+          "link": "contact/",
           "text": "Partner with Us"
         }
       ]

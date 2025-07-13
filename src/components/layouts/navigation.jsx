@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 
+function joinURL(base, path) {
+  if (path.startsWith("http") || path.startsWith("mailto") || path.startsWith("tel")) {
+    return path;
+  }
+  return `${base}/${path}`.replace(/\/+/g, "/");
+}
+
 export default function Navigation({ pageUrl, base }) {
   const [isSticky, setSticky] = useState(false);
 
@@ -49,8 +56,8 @@ export default function Navigation({ pageUrl, base }) {
           id="mainnavigationBar"
         >
           <div className="container-fluid">
-            <a className="navbar-brand" href={`${base}/`}>
-              <img src={`${base}${navigation.logo}`} alt="Nav-Logo" />
+            <a className="navbar-brand" href={joinURL(base, "")}>
+              <img src={joinURL(base, navigation.logo)} alt="Nav-Logo" />
             </a>
             <button
               className="navbar-toggler"
@@ -137,7 +144,7 @@ export default function Navigation({ pageUrl, base }) {
                   {item.enable_dropdown && item.dropdown ? (
                     <>
                       <a
-                        href={`${base}${item.link}`}
+                        href={joinURL(base, item.link)}
                         className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         onClick={handleDropdownClick}
                       >
@@ -146,7 +153,7 @@ export default function Navigation({ pageUrl, base }) {
                       <ul className="dropdown-menu">
                         {item.dropdown.map((dropdown_item, j) => (
                           <li key={j}>
-                            <a className="dropdown-item" href={`${base}${dropdown_item.dropdown_link}`}>
+                            <a className="dropdown-item" href={joinURL(base, dropdown_item.dropdown_link)}>
                               {dropdown_item.dropdown_text}
                             </a>
                           </li>
@@ -155,7 +162,7 @@ export default function Navigation({ pageUrl, base }) {
                     </>
                   ) : (
                     <a
-                      href={`${base}${item.link}`}
+                      href={joinURL(base, item.link)}
                       className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                     >
                       {item.text}
@@ -170,7 +177,7 @@ export default function Navigation({ pageUrl, base }) {
             <div className="d-none d-lg-block">
               <div className="nav-item">
                 <a
-                  href={`${base}${navigation.nav_btn?.link}`}
+                  href={joinURL(base, navigation.nav_btn?.link)}
                   className="btn btn-sm btn-links"
                 >
                   {navigation.nav_btn?.text}

@@ -1,5 +1,12 @@
 import footer from "@data/footer.json";
 
+function joinURL(base, path) {
+  if (path.startsWith("http") || path.startsWith("mailto") || path.startsWith("tel")) {
+    return path;
+  }
+  return `${base}/${path}`.replace(/\/+/g, "/");
+}
+
 export default function Footer({ base }) {
   return (
     <footer className="footer pt-xxl-19 pt-8 pb-sm-7 pb-5" id="footer">
@@ -8,8 +15,8 @@ export default function Footer({ base }) {
           <div className="row">
             <div className="col-12 col-lg-4 me-auto order-2 order-lg-1">
               <div className="footer-logo mt-7 mt-md-0">
-                <a href={`${base}${footer.logo_url}`} className="">
-                  <img src={`${base}${footer.logo}`} alt="logo" />
+                <a href={joinURL(base, footer.logo_url)} className="">
+                  <img src={joinURL(base, footer.logo)} alt="logo" />
                 </a>
                 <p>
                   © Copyright <span>{new Date().getFullYear()}</span>{" "}
@@ -40,7 +47,7 @@ export default function Footer({ base }) {
                   <ul className="list-unstyled">
                     {section.links.map((link, i) => (
                       <li key={i}>
-                        <a href={link.link.startsWith('http') || link.link.startsWith('mailto') || link.link.startsWith('tel') ? link.link : `${base}${link.link}`}>{link.text}</a>
+                        <a href={joinURL(base, link.link)}>{link.text}</a>
                       </li>
                     ))}
                   </ul>

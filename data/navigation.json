@@ -3,25 +3,25 @@
   "items": [
     {
       "text": "Home",
-      "link": "/",
+      "link": "",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "About",
-      "link": "/about/",
+      "link": "about/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "Our Projects",
-      "link": "/features/",
+      "link": "features/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "Get Involved",
-      "link": "/contact/",
+      "link": "contact/",
       "enable_dropdown": false,
       "dropdown": []
     }
@@ -29,6 +29,6 @@
   "enable_nav_btn": true,
   "nav_btn": {
     "text": "Donate",
-    "link": "/pricing/"
+    "link": "pricing/"
   }
 }
