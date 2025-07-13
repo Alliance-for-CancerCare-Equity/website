@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: Donate
 seo:
   page_description:
   canonical_url:
@@ -10,112 +10,84 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: pricing/hero
-    title: A plan for everyone
-    description: Sendit is easy to get started and we have a pricing plan for businesses of all sizes.
+    title: Ways to Give
+    description: Your generous contribution makes a world of difference. Join us in the fight for cancer care equity. Every donation, no matter the size, helps us support patients and their families.
 
   - _bookshop_name: pricing/table
     pricing_tier:
-      - tier: Free
+      - tier: One-Time Donation
         highlight_tier: false
-        description: Everything you need to get started.
+        description: Make a single, impactful contribution to support our ongoing projects and patient care.
         currency_symbol: $
-        price: 0
+        price: 50
         has_discount: false
         discount_price: 0
         features:
-          - item: 1 Email Campaign
+          - item: Supports treatment costs
             active_feature: true
-          - item: 1 Year Premium Support
+          - item: Helps purchase medical equipment
             active_feature: true
-          - item: Regular Update for 1 Year
+          - item: Funds vital cancer research
             active_feature: true
-          - item: 90+ Widgets & Extensions
+          - item: Provides immediate support
             active_feature: true
-          - item: 23+ Templates
-            active_feature: true
-          - item: Over 800 Section Blocks
-            active_feature: false
-          - item: Support
-            active_feature: false
-          - item: 3 filters
-            active_feature: false
-          - item: Unlimited activity history
-            active_feature: false
         button:
-          link: /signup
-          text: Try This Free
-      - tier: Pro
+          link: https://www.paypal.com/
+          text: Donate Now
+      - tier: Monthly Donor
         highlight_tier: true
-        description: More collaborative power and unlimited boards for fast-growing.
+        description: Become a "Partner in Hope, Cure, and Equity" with a recurring monthly gift.
         currency_symbol: $
-        price: 199
-        has_discount: true
-        discount_price: 125
+        price: 25
+        has_discount: false
+        discount_price: 0
         features:
-          - item: 1 Email Campaign
+          - item: Provides steady, reliable funding
             active_feature: true
-          - item: 1 Year Premium Support
+          - item: Sustains long-term patient support
             active_feature: true
-          - item: Regular Update for 1 Year
+          - item: Enables better program planning
             active_feature: true
-          - item: 90+ Widgets & Extensions
+          - item: Exclusive updates for partners
             active_feature: true
-          - item: 23+ Templates
+          - item: Join a community of supporters
             active_feature: true
-          - item: Over 800 Section Blocks
-            active_feature: true
-          - item: Support
-            active_feature: false
-          - item: 3 filters
-            active_feature: false
-          - item: Unlimited activity history
-            active_feature: false
         button:
-          link: /signup
-          text: Try This Free
-      - tier: Business
+          link: https://www.paypal.com/
+          text: Become a Partner
+      - tier: Champions Campaign
         highlight_tier: false
-        description: For starters Includes unlimited members
-        currency_symbol: $
-        price: 499
-        has_discount: true
-        discount_price: 350
+        description: Start your own fundraiser and become an ACCE Champion for cancer care equity.
+        currency_symbol:
+        price:
+        has_discount: false
+        discount_price:
         features:
-          - item: 1 Email Campaign
+          - item: Fundraise on our behalf
             active_feature: true
-          - item: 1 Year Premium Support
+          - item: Rally your community for a cause
             active_feature: true
-          - item: Regular Update for 1 Year
+          - item: Recognition on our website
             active_feature: true
-          - item: 90+ Widgets & Extensions
-            active_feature: true
-          - item: 23+ Templates
-            active_feature: true
-          - item: Over 800 Section Blocks
-            active_feature: true
-          - item: Support
-            active_feature: true
-          - item: 3 filters
-            active_feature: true
-          - item: Unlimited activity history
+          - item: Make a significant collective impact
             active_feature: true
         button:
-          link: /signup
-          text: Try This Free
+          link: /contact
+          text: Start a Campaign
 
   - _bookshop_name: global/faq
-    title: Have
-    title_suffix: Questions?
-    description: We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy.
+    title: Donation
+    title_suffix: Questions
+    description: Your trust is important to us. Here are answers to some common questions about how you can contribute to our mission.
     FAQ:
-      - title: Is there a maximum numbers of emails I can send each month?
-        description: No, the prices include unlimited emails. Send to your heart's content.
-      - title: Where can I find out more information?
-        description: Right here on this website, or contact our support team.
-      - title: Do you have pricing for non-profits?
-        description: Yes, contact our support team and we'll get you set up on our non-profit plan.
-      - title: What forms of payment do you accept?
-        description: We accept credit cards, checks, and cash.
-      - title: In which currencies can I make payments?
-        description: All payments are in **USD**.
+      - title: What payment methods do you accept?
+        description: We accept secure online donations via Debit/Credit Card and PayPal. You can also donate via Interac e-Transfer (in Canada) or MoMo (in Ghana). Cheques are also welcome.
+      - title: Is my donation tax-deductible?
+        description: Yes, Alliance for Cancer Care Equity is a registered charity in Canada. All donations are tax-deductible as allowed by law.
+      - title: Where does my donation go?
+        description: Your donation directly funds cancer treatments, supports community healthcare centers, and advances cancer research in both Canada and Ghana.
+      - title: Can my company get involved?
+        description: Absolutely. We welcome corporate partnerships and giving. Please visit our Partners page or contact us to learn more.
+      - title: How can I get a receipt for my donation?
+        description: Donation receipts are automatically issued for online donations. For other methods, please contact us and we will gladly provide one.
 ---

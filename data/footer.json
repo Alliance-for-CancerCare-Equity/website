@@ -1,74 +1,74 @@
 {
   "logo": "/images/footer-logo.svg",
   "logo_url": "/",
-  "copyright": "MyCompany. All rights reserved.",
+  "copyright": "Alliance for Cancer Care Equity. All rights reserved.",
   "social": [
     {
-      "link": "https://www.facebook.com/mycompany",
+      "link": "#",
       "social_icon": "ph-facebook-logo"
     },
     {
-      "link": "https://www.instagram.com/mycompany",
+      "link": "#",
       "social_icon": "ph-instagram-logo"
     },
     {
-      "link": "https://www.twitter.com/mycompany",
+      "link": "#",
       "social_icon": "ph-twitter-logo"
     },
     {
-      "link": "https://www.github.com/mycompany",
-      "social_icon": "ph-github-logo"
-    },
-    {
-      "link": "https://www.youtube.com/mycompany",
+      "link": "#",
       "social_icon": "ph-youtube-logo"
     }
   ],
   "sections": [
     {
-      "title": "Main Pages",
+      "title": "Navigate",
       "links": [
         {
           "link": "/",
           "text": "Home"
         },
         {
-          "link": "/features/",
-          "text": "Features"
-        },
-        {
-          "link": "/pricing/",
-          "text": "Price"
-        },
-        {
           "link": "/about/",
-          "text": "About"
-        }
-      ]
-    },
-    {
-      "title": "Community",
-      "links": [
-        {
-          "link": "/blog/",
-          "text": "Blog"
+          "text": "About Us"
         },
         {
-          "link": "/feed.xml",
-          "text": "RSS Feed"
-        }
-      ]
-    },
-    {
-      "title": "Company",
-      "links": [
+          "link": "/features/",
+          "text": "Our Projects"
+        },
         {
           "link": "/contact/",
           "text": "Contact"
+        }
+      ]
+    },
+    {
+      "title": "Get Involved",
+      "links": [
+        {
+          "link": "/pricing/",
+          "text": "Donate"
         },
         {
-          "link": "/privacy/",
-          "text": "Privacy Policy"
+          "link": "/contact/",
+          "text": "Volunteer"
+        },
+        {
+          "link": "/contact/",
+          "text": "Partner with Us"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "links": [
+        {
+          "link": "mailto:support@allianceforcancercareequity.ca",
+          "text": "support@allianceforcancercareequity.ca"
+        },
+        {
+          "link": "tel:+1-226-698-2573",
+          "text": "+1-226-698-2573"
         }
       ]
     }

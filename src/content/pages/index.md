@@ -11,110 +11,100 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Beautiful email campaigns
+    title: Transforming Cancer Care With Compassion And Empathy
     description: >-
-      With Sendit, you can quickly create beautiful rich emails that capture a
-      reader's attention, engage them, and convert them into customers.
+      The Alliance for Cancer Care Equity (ACCE) is dedicated to providing support throughout the entire journey of patients and their families, who are affected emotionally, spiritually, socially, and economically by cancer and its treatments.
     image: /images/hero/hero-image-2.png
     image_alt: Reports dashboard
     button:
-      text: Try This Free
-      link: /signup/
+      text: Learn More
+      link: /about/
   - _bookshop_name: global/counter
-    title: Scale your
-    title_suffix: Business
+    title: Our Impact
+    title_suffix: By The Numbers
     description: >-
-      We have an extensive library of pre-written sales emails, proven marketing
-      templates, and more to get you started on your next project.
+      We strive to achieve equity in cancer care by addressing disparities across the entire continuum of care through our various projects and initiatives.
     alternate_style: false
     numbers:
       - prefix: $
-        number: 200
-        suffix: m
-        text: Venture capital raised
+        number: 500
+        suffix: k+
+        text: Raised for treatment
       - prefix:
-        number: 2016
+        number: 2022
         suffix:
         text: Established in
       - prefix:
-        number: 40
+        number: 100
         suffix: +
-        text: Amazing team members
+        text: Patients supported
       - prefix:
-        number: 4322
+        number: 5
         suffix: +
-        text: Active users and growing
+        text: Community partners
   - _bookshop_name: home/video
     image: /images/video/video-thum.jpg
     image_alt: Thumbnail for video
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
-    title: "Sendit "
-    title_suffix: Features
+    title: "How We "
+    title_suffix: Help
     remove_top_padding: true
     description: >-
-      Our platform offers the most advanced features including automated email
-      content creation, dynamic personalization, and customer segmentation.
+      ACCE provides tangible support through its programs, which include treatment support, equipment support, and advancing cancer research.
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-one.png
     image_alt: Message inbox
-    title: Email Campaign in one minute
+    title: Funding Cancer Treatment
     description: >-
-      Send an email campaign with one click, in just minutes. Automate your
-      emails and content, while keeping the human touch.
+      We provide crucial financial assistance for cancer treatments and all related costs, ensuring that every patient has access to the care they deserve.
     button:
-      link: /signup
-      text: Try This Free
+      link: /donate
+      text: Donate Now
     reversed: false
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-two.png
     image_alt: Visitor chart
-    title: See every Lead in one Place
+    title: Supporting Patients and Families
     description: >-
-      Sales analytics and automation made simple: see every sales lead in one
-      place, regardless of where it came from.
+      We offer comprehensive support to patients and their loved ones, helping them navigate the emotional, spiritual, and social challenges of a cancer diagnosis.
     button:
-      link: /signup
-      text: Try This Free
+      link: /about
+      text: Learn More
     reversed: true
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-three.png
     image_alt: File upload
-    title: 100% free uploads
+    title: Advancing Cancer Research
     description: >-
-      Sendit is used by everyone from small businesses to fortune 500 companies.
-      Browse our collection of email marketing templates and start sending
-      beautiful emails in minutes.
+      We are committed to promoting and advancing cancer research to discover new treatments, improve outcomes, and ultimately find a cure.
     button:
-      link: /signup
-      text: Try This Free
+      link: /about
+      text: Learn More
     reversed: false
   - _bookshop_name: global/testimonial
-    title: Build relationships that
-    title_suffix: last
+    title: Voices from our
+    title_suffix: Community
     description: >-
-      Customers from around the world are building game changing email marketing
-      campaigns.
+      Hear from the patients, families, and partners we've had the privilege to support and work with.
     slider:
       - image: /images/testimonial/logo-2.jpg
-        image_alt: Profile photo of Pete Fish
-        author: Pete Fish
-        designation: CMO at Clear Appeal
+        image_alt: Profile photo of a community member
+        author: Jane Doe
+        designation: Patient Family Member
         message: >-
-          Sendit has taken Clear Appeal to the next level with it's beautiful
-          targetted email campaigns.
+          ACCE was a beacon of hope for our family during a difficult time. Their support was invaluable.
       - image: /images/testimonial/logo-3.jpg
-        image_alt: Profile photo of Dolly Watson
-        author: Dolly Watson
-        designation: Digital Marketer at Time Cop
+        image_alt: Profile photo of a community partner
+        author: Dr. John Smith
+        designation: Partner Oncologist
         message: >-
-          Wow, what a difference Sendit has made. My customers are more engaged
-          than ever.
+          Working with ACCE allows us to provide better care to our patients. They are a vital part of our community.
       - image: /images/testimonial/logo-4.jpg
-        image_alt: Profile photo of Simon Moriarty
-        author: Simon Moriarty
-        designation: Head of Marketing at Pinnacle Mines
+        image_alt: Profile photo of a volunteer
+        author: Emily White
+        designation: Volunteer
         message: >-
-          I can't imagine life without Sendit now, I have no idea how we were
-          surviving before.
+          Volunteering with ACCE has been a rewarding experience. It's amazing to see the direct impact of our work.
 ---
+
