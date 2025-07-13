@@ -14,8 +14,8 @@ content_blocks:
     title: Transforming Cancer Care With Compassion And Empathy
     description: >-
       The Alliance for Cancer Care Equity (ACCE) is dedicated to providing support throughout the entire journey of patients and their families, who are affected emotionally, spiritually, socially, and economically by cancer and its treatments.
-    image: /images/hero/hero-image-2.png
-    image_alt: Reports dashboard
+    image: https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+    image_alt: A healthcare professional holding a patient's hand with compassion.
     button:
       text: Learn More
       link: /about/
@@ -27,19 +27,19 @@ content_blocks:
     alternate_style: false
     numbers:
       - prefix: $
-        number: 500
+        number: 20
         suffix: k+
         text: Raised for treatment
       - prefix:
-        number: 2022
+        number: 2023
         suffix:
         text: Established in
       - prefix:
-        number: 100
+        number: 10
         suffix: +
         text: Patients supported
       - prefix:
-        number: 5
+        number: 3
         suffix: +
         text: Community partners
   - _bookshop_name: home/video
@@ -53,8 +53,8 @@ content_blocks:
     description: >-
       ACCE provides tangible support through its programs, which include treatment support, equipment support, and advancing cancer research.
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-one.png
-    image_alt: Message inbox
+    image: https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+    image_alt: A group of people in a support circle.
     title: Funding Cancer Treatment
     description: >-
       We provide crucial financial assistance for cancer treatments and all related costs, ensuring that every patient has access to the care they deserve.
@@ -63,8 +63,8 @@ content_blocks:
       text: Donate Now
     reversed: false
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-two.png
-    image_alt: Visitor chart
+    image: https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+    image_alt: A diverse group of people smiling, representing community.
     title: Supporting Patients and Families
     description: >-
       We offer comprehensive support to patients and their loved ones, helping them navigate the emotional, spiritual, and social challenges of a cancer diagnosis.
@@ -73,8 +73,8 @@ content_blocks:
       text: Learn More
     reversed: true
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-three.png
-    image_alt: File upload
+    image: https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+    image_alt: A scientist looking into a microscope, representing medical research.
     title: Advancing Cancer Research
     description: >-
       We are committed to promoting and advancing cancer research to discover new treatments, improve outcomes, and ultimately find a cure.
