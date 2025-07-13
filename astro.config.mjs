@@ -4,6 +4,7 @@ import bookshop from '@bookshop/astro-bookshop';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://top-quail.cloudvent.net/",
+  site: "https://alliance-forcancercare-equity.github.io",
+  base: "/website",
   integrations: [bookshop(), react()]
 });
