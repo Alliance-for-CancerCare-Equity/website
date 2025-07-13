@@ -1,4 +1,4 @@
-import{r as k}from"./index.ed373d49.js";const j="/images/logo.svg",L=[{text:"Home",link:"/",enable_dropdown:!1,dropdown:[]},{text:"About",link:"/about/",enable_dropdown:!1,dropdown:[]},{text:"Our Projects",link:"/features/",enable_dropdown:!1,dropdown:[]},{text:"Get Involved",link:"/contact/",enable_dropdown:!1,dropdown:[]}],N=!0,y={text:"Donate",link:"/pricing/"},x={logo:j,items:L,enable_nav_btn:N,nav_btn:y};var m={exports:{}},b={};/**
+import{r as k}from"./index.ed373d49.js";const j="images/logo.svg",L=[{text:"Home",link:"/",enable_dropdown:!1,dropdown:[]},{text:"About",link:"/about/",enable_dropdown:!1,dropdown:[]},{text:"Our Projects",link:"/features/",enable_dropdown:!1,dropdown:[]},{text:"Get Involved",link:"/contact/",enable_dropdown:!1,dropdown:[]}],N=!0,y={text:"Donate",link:"/pricing/"},x={logo:j,items:L,enable_nav_btn:N,nav_btn:y};var m={exports:{}},b={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
