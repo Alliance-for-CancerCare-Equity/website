@@ -49,7 +49,7 @@ export default function Navigation({ pageUrl, base }) {
           id="mainnavigationBar"
         >
           <div className="container-fluid">
-            <a className="navbar-brand" href={`${base}`}>
+            <a className="navbar-brand" href={`${base}/`}>
               <img src={`${base}${navigation.logo}`} alt="Nav-Logo" />
             </a>
             <button
@@ -137,7 +137,7 @@ export default function Navigation({ pageUrl, base }) {
                   {item.enable_dropdown && item.dropdown ? (
                     <>
                       <a
-                        href={`${item.link}`}
+                        href={`${base}${item.link}`}
                         className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         onClick={handleDropdownClick}
                       >
@@ -146,7 +146,7 @@ export default function Navigation({ pageUrl, base }) {
                       <ul className="dropdown-menu">
                         {item.dropdown.map((dropdown_item, j) => (
                           <li key={j}>
-                            <a className="dropdown-item" href={dropdown_item.dropdown_link}>
+                            <a className="dropdown-item" href={`${base}${dropdown_item.dropdown_link}`}>
                               {dropdown_item.dropdown_text}
                             </a>
                           </li>
@@ -155,7 +155,7 @@ export default function Navigation({ pageUrl, base }) {
                     </>
                   ) : (
                     <a
-                      href={`${item.link}`}
+                      href={`${base}${item.link}`}
                       className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                     >
                       {item.text}
@@ -170,7 +170,7 @@ export default function Navigation({ pageUrl, base }) {
             <div className="d-none d-lg-block">
               <div className="nav-item">
                 <a
-                  href={`${navigation.nav_btn?.link}`}
+                  href={`${base}${navigation.nav_btn?.link}`}
                   className="btn btn-sm btn-links"
                 >
                   {navigation.nav_btn?.text}

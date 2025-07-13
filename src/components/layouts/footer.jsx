@@ -40,7 +40,7 @@ export default function Footer({ base }) {
                   <ul className="list-unstyled">
                     {section.links.map((link, i) => (
                       <li key={i}>
-                        <a href={`${link.link}`}>{link.text}</a>
+                        <a href={link.link.startsWith('http') || link.link.startsWith('mailto') || link.link.startsWith('tel') ? link.link : `${base}${link.link}`}>{link.text}</a>
                       </li>
                     ))}
                   </ul>
