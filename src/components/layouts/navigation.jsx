@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 
-export default function Navigation({ pageUrl }) {
+export default function Navigation({ pageUrl, base }) {
   const [isSticky, setSticky] = useState(false);
 
   const handleScroll = () => {
@@ -49,8 +49,8 @@ export default function Navigation({ pageUrl }) {
           id="mainnavigationBar"
         >
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
-              <img src={navigation.logo} alt="Nav-Logo" />
+            <a className="navbar-brand" href={`${base}`}>
+              <img src={`${base}${navigation.logo}`} alt="Nav-Logo" />
             </a>
             <button
               className="navbar-toggler"

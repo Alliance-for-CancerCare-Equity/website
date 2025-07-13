@@ -1,6 +1,6 @@
 import footer from "@data/footer.json";
 
-export default function Footer({}) {
+export default function Footer({ base }) {
   return (
     <footer className="footer pt-xxl-19 pt-8 pb-sm-7 pb-5" id="footer">
       <div className="container-fluid">
@@ -8,8 +8,8 @@ export default function Footer({}) {
           <div className="row">
             <div className="col-12 col-lg-4 me-auto order-2 order-lg-1">
               <div className="footer-logo mt-7 mt-md-0">
-                <a href={footer.logo_url} className="">
-                  <img src={footer.logo} alt="logo" />
+                <a href={`${base}${footer.logo_url}`} className="">
+                  <img src={`${base}${footer.logo}`} alt="logo" />
                 </a>
                 <p>
                   © Copyright <span>{new Date().getFullYear()}</span>{" "}
