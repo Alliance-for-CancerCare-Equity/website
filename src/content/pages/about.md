@@ -38,11 +38,11 @@ content_blocks:
         text: Countries of Operation
       - number: 3
         text: Key Hospital Partners
-      - number: 100
-        suffix: s
+      - number: 10
+        suffix: +
         text: of Patients Supported
-      - number: 1000
-        suffix: s+
+      - number: 10
+        suffix: +
         text: Lives Impacted
 
   - _bookshop_name: about/video
