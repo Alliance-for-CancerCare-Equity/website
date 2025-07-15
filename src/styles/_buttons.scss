@@ -136,6 +136,11 @@
       background: $color-primary;
       border: $base-border-width solid $color-secondary-light;
     }
+    &.active{
+      color: $color-white;
+      background: $color-primary;
+      border: $base-border-width solid $color-secondary-light;
+    }
   }
 
   &-white {

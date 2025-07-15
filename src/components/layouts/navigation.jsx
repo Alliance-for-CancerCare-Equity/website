@@ -145,7 +145,7 @@ export default function Navigation({ pageUrl, base }) {
                     <>
                       <a
                         href={joinURL(base, item.link)}
-                        className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
+                        className={`nav-link dropdown-link ${pageUrl?.pathname.replace(/\/$/, "") === joinURL(base, item.link).replace(/\/$/, "") ? "active" : ""}`}
                         onClick={handleDropdownClick}
                       >
                         {item.text}
@@ -163,7 +163,7 @@ export default function Navigation({ pageUrl, base }) {
                   ) : (
                     <a
                       href={joinURL(base, item.link)}
-                      className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
+                      className={`nav-link ${pageUrl?.pathname.replace(/\/$/, "") === joinURL(base, item.link).replace(/\/$/, "") ? "active" : ""}`}
                     >
                       {item.text}
                     </a>
@@ -178,7 +178,7 @@ export default function Navigation({ pageUrl, base }) {
               <div className="nav-item">
                 <a
                   href={joinURL(base, navigation.nav_btn?.link)}
-                  className="btn btn-sm btn-links"
+                  className={`btn btn-sm btn-links ${pageUrl?.pathname.replace(/\/$/, "") === joinURL(base, navigation.nav_btn?.link).replace(/\/$/, "") ? "active" : ""}`}
                 >
                   {navigation.nav_btn?.text}
                 </a>

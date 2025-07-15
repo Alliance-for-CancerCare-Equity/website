@@ -2,7 +2,7 @@
 _schema: default
 title: Home
 seo:
-  page_description:
+  page_description: "The Alliance for Cancer Care Equity (ACCE) is dedicated to providing support throughout the entire journey of patients and their families, who are affected emotionally, spiritually, socially, and economically by cancer and its treatments."
   canonical_url:
   featured_image:
   featured_image_alt:

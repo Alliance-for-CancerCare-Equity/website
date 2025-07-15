@@ -1,7 +1,7 @@
 ---
 title: Donate
 seo:
-  page_description:
+  page_description: "Support the Alliance for Cancer Care Equity (ACCE) by making a one-time or monthly donation. Your contribution helps fund cancer treatments, purchase medical equipment, and advance vital cancer research for patients in need."
   canonical_url:
   featured_image:
   featured_image_alt:

@@ -1,7 +1,7 @@
 ---
 title: About
 seo:
-  page_description:
+  page_description: "Learn about the Alliance for Cancer Care Equity (ACCE), our mission to promote equity in cancer care, and our impact in Canada and Ghana. See how we support patients, fund research, and partner with hospitals."
   canonical_url:
   featured_image:
   featured_image_alt:
