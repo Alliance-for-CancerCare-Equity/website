@@ -14,14 +14,14 @@
       "dropdown": []
     },
     {
-      "text": "Our Projects",
-      "link": "features/",
+      "text": "Our Work",
+      "link": "work/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "Get Involved",
-      "link": "contact/",
+      "link": "get-involved/",
       "enable_dropdown": false,
       "dropdown": []
     }
@@ -29,6 +29,6 @@
   "enable_nav_btn": true,
   "nav_btn": {
     "text": "Donate",
-    "link": "pricing/"
+    "link": "donate/"
   }
 }

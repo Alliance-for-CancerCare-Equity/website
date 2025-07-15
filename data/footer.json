@@ -33,8 +33,8 @@
           "text": "About Us"
         },
         {
-          "link": "features/",
-          "text": "Our Projects"
+          "link": "work/",
+          "text": "Our Work"
         },
         {
           "link": "contact/",
@@ -46,15 +46,15 @@
       "title": "Get Involved",
       "links": [
         {
-          "link": "pricing/",
+          "link": "donate/",
           "text": "Donate"
         },
         {
-          "link": "contact/",
+          "link": "get-involved/",
           "text": "Volunteer"
         },
         {
-          "link": "contact/",
+          "link": "get-involved/",
           "text": "Partner with Us"
         }
       ]
