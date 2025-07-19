@@ -1,5 +1,5 @@
-/********** 
- 1. Default  Styles 
+/**********
+ 1. Default  Styles
 **********/
 @use "sass:math";
 
@@ -271,8 +271,8 @@ a {
   display: none;
 }
 
-/********** 
-  15. Custom Styles 
+/**********
+  15. Custom Styles
 **********/
 
 // section-header style
@@ -641,3 +641,12 @@ a {
     transform: scale(1) translate(-50%, -50%);
   }
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overscroll-behavior-y: none; // disables scroll chaining & bounce
+  overflow-x: hidden;
+}
+
