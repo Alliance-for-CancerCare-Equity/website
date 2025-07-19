@@ -20,6 +20,12 @@
       "dropdown": []
     },
     {
+      "text": "Stories",
+      "link": "stories/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
       "text": "Apply for Funding",
       "link": "apply/",
       "enable_dropdown": false,

@@ -1,10 +1,10 @@
 ---
 _schema: paginated_collection
-title: Resources for makers to learn, sell & grow
-description: "We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy."
+title: ACCE Blog & News
+description: "Stay up-to-date with the latest news, stories, and updates from the Alliance for Cancer Care Equity. Learn more about our work, our impact, and the issues we're passionate about."
 page_size: 3
 seo:
-  page_description: "We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy."
+  page_description: "Stay up-to-date with the latest news, stories, and updates from the Alliance for Cancer Care Equity (ACCE). Learn more about our work, our impact, and the issues we're passionate about."
   canonical_url:
   featured_image:
   featured_image_alt:

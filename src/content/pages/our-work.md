@@ -11,17 +11,17 @@ seo:
 content_blocks:
   - _bookshop_name: feature/hero
     title: Our Work
-    description: We are dedicated to advancing equity in cancer care through a variety of impactful projects in Canada and Ghana.
+    description: "We are dedicated to advancing equity in cancer care through impactful projects in Canada and Ghana. See how we're making a difference in the lives of patients and their families."
     button:
       link: /get-involved
-      text: Support Our Work
+      text: Support Our Mission
     image: https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
     image_alt: A diverse group of people working together on a project.
 
   - _bookshop_name: global/header
     title: "What We "
     title_suffix: Do
-    description: Our work is focused on providing direct financial support, strengthening healthcare infrastructure, and offering compassionate assistance to patients and their families.
+    description: "Our work is focused on three core areas: providing direct financial support for treatment, strengthening healthcare infrastructure, and offering compassionate assistance to patients and their families."
 
   - _bookshop_name: global/feature
     image: https://images.pexels.com/photos/8940723/pexels-photo-8940723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
@@ -29,8 +29,8 @@ content_blocks:
     title: Fund Cancer Treatment and Related Costs
     description: "We fund the full range of cancer treatments—radiotherapy, chemotherapy, and surgery—for patients in Ghana and cover unfunded medications for underinsured patients in Canada, ensuring finances are not a barrier to care."
     button:
-      link: /get-involved
-      text: Donate Now
+      link: /apply
+      text: Apply for Funding
     reversed: false
 
   - _bookshop_name: global/feature
@@ -45,11 +45,11 @@ content_blocks:
 
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-three.png
-    image_alt: Upload box
-    title: Assistance for Education and Training
+    image_alt: A supportive hand on a shoulder.
+    title: Support for Patients and Families
     description: "We connect patients and their families with supportive community groups and specialized counseling services, offering financial assistance and compassionate guidance throughout their cancer journey."
     button:
-      link: /about
-      text: Learn More
+      link: /stories
+      text: Read Their Stories
     reversed: false
 ---

@@ -22,7 +22,5 @@ content_blocks:
       - image: /images/about/aboutfeature-four.jpg
         image_alt: Staff group photo
         placement: "back_top_left"
-    button:
-      text: "Try This Free"
-      link: "/signup"
+    
 ---

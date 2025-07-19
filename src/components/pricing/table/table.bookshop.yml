@@ -20,9 +20,7 @@ blueprint:
       features:
         - item: 1 Site Activation
           active_feature: true
-      button:
-        link: /login
-        text: Try This Free
+      
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

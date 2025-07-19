@@ -1,7 +1,7 @@
 ---
-title: About
+title: About Us
 seo:
-  page_description: "Learn about the Alliance for Cancer Care Equity (ACCE), our mission to promote equity in cancer care, and our impact in Canada and Ghana. See how we support patients, fund research, and partner with hospitals."
+  page_description: "Learn about the Alliance for Cancer Care Equity (ACCE). Our vision is a world where every cancer patient receives high-quality care, regardless of financial status. Discover our mission, our impact, and our partners."
   canonical_url:
   featured_image:
   featured_image_alt:
@@ -11,7 +11,7 @@ seo:
 content_blocks:
   - _bookshop_name: about/hero
     title: Advancing Equity in Cancer Care for All
-    description: Our vision is a world where every cancer patient receives equitable, high-quality care, regardless of their financial status. We are on a mission to promote equity in cancer care from prevention through survivorship.
+    description: "Our vision is a world where every cancer patient receives equitable, high-quality care. Our mission is to promote equity in cancer care from prevention through survivorship, ensuring that no one is left behind."
     hero_images:
       - image: /images/about/aboutfeature-two.jpg
         image_alt: People working together
@@ -23,13 +23,13 @@ content_blocks:
         image_alt: Community photo
         placement: "back_top_left"
     button:
-      text: "Get Involved"
-      link: "/contact"
+      text: "Join Our Mission"
+      link: "/get-involved"
 
   - _bookshop_name: global/counter
     title: Our Global
     title_suffix: Impact
-    description: We provide comprehensive support to patients and families, covering treatment costs, supplying equipment, and funding research in both Canada and Ghana.
+    description: "We provide comprehensive support to patients and families, covering treatment costs, supplying equipment, and funding research in both Canada and Ghana."
     alternate_style: true
     numbers:
       - prefix:
@@ -40,16 +40,16 @@ content_blocks:
         text: Key Hospital Partners
       - number: 10
         suffix: +
-        text: of Patients Supported
+        text: Patients Supported
       - number: 10
         suffix: +
         text: Lives Impacted
 
   - _bookshop_name: about/video
     title: Our Vision for the Future
-    description: We are committed to expanding our reach and impact, building a future where quality cancer care is a right, not a privilege. Through research, support, and community action, we are making a tangible difference.
+    description: "We are committed to expanding our reach and impact, building a future where quality cancer care is a right, not a privilege. Through direct support and community action, we are making a tangible difference."
     button:
-      link: /donate
+      link: /get-involved
       text: Donate to Our Mission
     video:
       image: /images/works/banner.jpg

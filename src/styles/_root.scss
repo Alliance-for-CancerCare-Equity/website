@@ -185,6 +185,7 @@ body {
   background: $color-white;
   line-height: 1.5;
   overflow-x: hidden;
+  overscroll-behavior-y: contain;
 }
 
 .bg-nav {
