@@ -130,10 +130,10 @@ function UpcomingPlaceholder() {
       </div>
       <div className="flex-auto">
         <h3 className="font-display text-xl font-bold leading-8 tracking-tight text-charcoal-900">
-          New events on the horizon
+          Empowering Communities: A Cancer Awareness and Education Event (2027)
         </h3>
         <p className="mt-3 text-base leading-7 text-charcoal-600">
-          Please visit again for information regarding upcoming events.
+          Please visit again for information regarding this event.
         </p>
       </div>
     </div>
