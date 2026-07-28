@@ -6,7 +6,7 @@ import cynthiaImage from '../../public/stories/cynthia.png'
 import salomeyImage from '../../public/stories/salomey.png'
 import emmanuelImage from '../../public/stories/emmanuel.png'
 import ritaImage from '../../public/stories/rita.png'
-import michealImage from '../../public/stories/micheal.png'
+import michaelImage from '../../public/stories/michael.png'
 
 export interface PatientStory {
   slug: string
@@ -116,14 +116,23 @@ export const patientStories: PatientStory[] = [
     ],
   },
   {
-    slug: 'micheal-carr',
-    name: 'Micheal Carr',
-    imageUrl: michealImage,
-    title: 'The Story of Micheal Carr: Stomach Cancer Survivor',
+    slug: 'michael-carr',
+    name: 'Michael Carr',
+    imageUrl: michaelImage,
+    title: 'A Lifeline When It Was Needed Most: Michael Carr\'s Journey with Stomach Cancer',
     youtubeUrl: 'https://www.youtube.com/watch?v=p1w2cd_54ko',
-    quote: '[ACCE] has given me the opportunity to keep fighting this disease and continue my cancer journey with renewed hope.',
+    quote: 'At a time when I felt lost and overwhelmed, I found hope.',
     pronoun: 'his',
-    content: [],
+    content: [
+      'No one is ever prepared for the moment when their life changes because of cancer. Michael Carr, from the Amansie-Adansi Municipality in Ghana, never expected his life to change because of cancer. When he received the information that the cancer had returned, he was faced with a reality no one should have to experience: not only fighting a serious illness, but also wondering how he would afford the care he needed.',
+      'The days that followed were filled with worry and uncertainty. Michael wanted to focus on his recovery, but the cost of treatment became another heavy weight to carry. He feared that financial challenges could prevent him from getting the care that could help save his life.',
+      'Searching for a way forward, Michael reached out to organizations online, hoping to find support. The first organization he contacted could not assist him, but they referred him to the Alliance for CancerCare Equity (ACCE) in Canada. That connection brought new hope.',
+      'When Michael spoke with Dr. Osei, Founder and CEO of ACCE, he felt more than just support. He felt understood. "On the other end of the phone was a man who spoke with humility, kindness, understanding, empathy, and genuine care. At a time when I felt lost and overwhelmed, I found hope," Michael recalls.',
+      'Through the generosity of ACCE donors, Michael received the financial and medical support needed to continue his treatment. The support lifted a burden that no patient should have to carry alone. For the first time in a long time, Michael could focus less on how he would pay for care and more on healing.',
+      'Michael\'s story reminds us that cancer is not only a medical battle. It is also a journey filled with fear, uncertainty, and moments when people need someone to stand beside them.',
+      'Your donation to ACCE can be that support. It helps patients access cancer treatment when financial barriers stand in the way. It helps families feel less alone. It gives people like Michael the chance to continue fighting, continue healing, and continue hoping. Behind every donation is a person whose life can be changed. Together, we can make sure that no one has to face cancer without support.',
+      'Watch Michael\'s full story to learn more about his journey and how ACCE support made a difference. Your donation can help more cancer patients access the care they need and remind them that they are not alone.',
+    ],
   },
 ]
 
