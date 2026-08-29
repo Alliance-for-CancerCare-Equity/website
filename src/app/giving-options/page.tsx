@@ -1,6 +1,10 @@
 import { type Metadata } from 'next'
 import { type ReactNode } from 'react'
+import Image, { type StaticImageData } from 'next/image'
 import { CheckIcon } from '@heroicons/react/20/solid'
+
+import paypalQr from '../../../public/images/acce_paypal_qr.png'
+import canadaHelpsQr from '../../../public/images/acce_canadahelps_qr.png'
 
 import { Button } from '@/components/ui/Button'
 import { Footer } from '@/components/layout/Footer'
@@ -27,6 +31,10 @@ const givingOptionsContent = {
         description: 'Secure online giving with Debit or Credit Card via PayPal.',
         features: ['Give any amount', 'Set up a monthly donation'],
         color: 'teal',
+        qr: {
+          src: paypalQr,
+          alt: 'QR code that opens the ACCE PayPal donation page',
+        },
       },
       {
         name: 'CanadaHelps',
@@ -36,6 +44,10 @@ const givingOptionsContent = {
           'Secure online giving with Debit or Credit Card via CanadaHelps.',
         features: ['Give any amount', 'Set up a monthly donation'],
         color: 'lavender',
+        qr: {
+          src: canadaHelpsQr,
+          alt: 'QR code that opens the ACCE CanadaHelps donation page',
+        },
       },
       {
         name: 'Other Methods',
@@ -143,6 +155,11 @@ interface Tier {
   description: string | ReactNode
   features: string[]
   color: string
+  /** Optional scan-to-give code. Encodes the same URL as `href`. */
+  qr?: {
+    src: StaticImageData
+    alt: string
+  }
 }
 
 interface OneTimeDonationsProps {
@@ -261,6 +278,32 @@ function OneTimeDonations({
                   >
                     Donate via {tier.name}
                   </Button>
+                )}
+                {tier.qr && (
+                  <div className="mt-6">
+                    <div className="flex items-center gap-x-3">
+                      <div className="h-px flex-auto bg-charcoal-200" />
+                      <span className="flex-none text-xs font-semibold uppercase tracking-wider text-charcoal-500">
+                        or scan to give
+                      </span>
+                      <div className="h-px flex-auto bg-charcoal-200" />
+                    </div>
+                    <a
+                      href={tier.href}
+                      className="mt-4 mx-auto block w-fit rounded-2xl bg-white p-3 shadow-soft ring-1 ring-charcoal-200 transition-all duration-200 hover:shadow-medium hover:ring-charcoal-300"
+                    >
+                      <Image
+                        src={tier.qr.src}
+                        alt={tier.qr.alt}
+                        width={160}
+                        height={160}
+                        className="size-40 rounded-lg"
+                      />
+                    </a>
+                    <p className="mt-3 text-center text-xs text-charcoal-500">
+                      Point your phone camera at the code to donate to {tier.name}.
+                    </p>
+                  </div>
                 )}
                 {tier.features.length > 0 && (
                   <ul
