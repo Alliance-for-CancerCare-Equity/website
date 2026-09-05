@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     title: 'Alliance for CancerCare Equity | Advancing Equity in Cancer Care',
     description:
       'Every cancer patient deserves a fighting chance. ACCE funds treatment, supports families, and advances equity in cancer care for underserved communities in Ghana and Canada.',
+    // A page-level openGraph block replaces the root layout's wholesale, so the
+    // image has to be repeated here or the homepage shares with no picture.
+    images: [{ url: '/images/about_us.jpg', width: 1200, height: 630, alt: 'Alliance for CancerCare Equity' }],
   },
 }
 

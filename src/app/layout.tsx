@@ -7,7 +7,10 @@ import clsx from 'clsx'
 import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
+  // Fall back to the production origin, not localhost: the live site is built
+  // by a host that sets no env vars, and a localhost metadataBase ships every
+  // og:image, og:url and canonical tag pointing at http://localhost:3000.
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.accecan.ca'),
   title: {
     template: '%s | Alliance for CancerCare Equity',
     default: 'Alliance for CancerCare Equity (ACCE) | Advancing Equity in Cancer Care',
