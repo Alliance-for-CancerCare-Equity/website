@@ -11,6 +11,7 @@ import kasareAvatar from '../../../public/avatars/3_kasare.png'
 import jdarkoAvatar from '../../../public/avatars/4_jdarko.png'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/meet-the-board' },
   title: 'Meet the Board',
   description:
     'Meet the ACCE Board of Directors — the dedicated leaders guiding our mission to advance equity in cancer care across Ghana and Canada.',

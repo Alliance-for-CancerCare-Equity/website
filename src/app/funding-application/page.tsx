@@ -5,6 +5,7 @@ import { Footer } from '@/components/layout/Footer'
 import { Header } from '@/components/layout/Header'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/funding-application' },
   title: 'Funding Application',
   description:
     'Submit a funding application to ACCE for cancer treatment or medical equipment support. Financial assistance for patients and healthcare facilities.',

@@ -4,6 +4,7 @@ import { Footer } from '@/components/layout/Footer'
 import { Header } from '@/components/layout/Header'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/support-treatment' },
   title: 'Treatment Support',
   description:
     'Apply for cancer treatment assistance from ACCE. We help cover costs for chemotherapy, radiotherapy, and surgery for patients who cannot afford care.',

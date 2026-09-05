@@ -26,7 +26,9 @@ export async function generateMetadata({
   return {
     title: story.title,
     description: `Read ${story.name}'s inspiring story of hope and healing with ACCE.`,
+    alternates: { canonical: `/patients-stories/${slug}` },
     openGraph: {
+      url: `/patients-stories/${slug}`,
       title: story.title,
       description: `Read ${story.name}'s inspiring story of hope and healing with ACCE.`,
       type: 'article',

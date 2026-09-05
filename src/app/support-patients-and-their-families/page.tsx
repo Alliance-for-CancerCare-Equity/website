@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header'
 import { ProjectPage } from '@/components/sections/ProjectPage'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/support-patients-and-their-families' },
   title: 'Support Patients and their Families',
   description:
     'ACCE provides holistic support for cancer patients and their families — counseling, emotional care, and practical assistance throughout treatment.',

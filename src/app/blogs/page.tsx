@@ -10,6 +10,7 @@ import { Header } from '@/components/layout/Header'
 import { getAllPosts } from '@/lib/mdx'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/blogs' },
   title: 'Blog',
   description:
     'Stay informed with ACCE\'s latest articles on cancer care, early detection, patient stories, and community health initiatives.',

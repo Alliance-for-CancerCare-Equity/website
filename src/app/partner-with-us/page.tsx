@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header'
 import { InvolvedPage } from '@/components/sections/InvolvedPage'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/partner-with-us' },
   title: 'Become a Partner',
   description:
     'Partner with ACCE to make a lasting impact on cancer care equity. Explore corporate sponsorship, event partnerships, and collaborative opportunities.',

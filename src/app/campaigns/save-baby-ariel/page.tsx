@@ -6,6 +6,7 @@ import { Footer } from '@/components/layout/Footer'
 import { Header } from '@/components/layout/Header'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/campaigns/save-baby-ariel' },
   title: "Save Baby Ariel's Life",
   description:
     'Help save Baby Ariel — donate to fund urgent cancer treatment for this young child. Every contribution brings hope and healing.',

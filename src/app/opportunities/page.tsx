@@ -6,6 +6,7 @@ import { Footer } from '@/components/layout/Footer'
 import { Header } from '@/components/layout/Header'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/opportunities' },
   title: 'Opportunities',
   description:
     'Explore ways to get involved with ACCE — volunteer, fundraise, or partner with us to help cancer patients access equitable care.',

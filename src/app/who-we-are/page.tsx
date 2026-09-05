@@ -6,6 +6,7 @@ import { Header } from '@/components/layout/Header'
 import { impactDisplay } from '@/lib/impact'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/who-we-are' },
   title: 'Who We Are',
   description:
     'Learn about ACCE\'s mission, vision, and values. We\'re a Canadian charity advancing equity in cancer care for underserved patients in Ghana and beyond.',

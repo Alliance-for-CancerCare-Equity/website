@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header'
 import { ProjectPage } from '@/components/sections/ProjectPage'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/support-community-healthcare-centers' },
   title: 'Support Community Healthcare Centers',
   description:
     'ACCE equips non-profit healthcare facilities with medical resources and equipment to improve cancer diagnosis and treatment in underserved communities.',

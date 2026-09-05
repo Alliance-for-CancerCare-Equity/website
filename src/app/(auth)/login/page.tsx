@@ -7,6 +7,7 @@ import { Logo } from '@/components/ui/Logo'
 import { SlimLayout } from '@/components/layout/SlimLayout'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/login' },
   title: 'Sign In',
 }
 

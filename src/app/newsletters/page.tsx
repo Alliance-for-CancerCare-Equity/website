@@ -10,6 +10,7 @@ import { NewsletterSubscribe } from '@/components/sections/NewsletterSubscribe'
 import { getAllNewsletters, type NewsletterMeta } from '@/lib/mdx'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/newsletters' },
   title: 'Newsletters',
   description:
     'Browse ACCE\'s newsletter archive. Quarterly updates on patient stories, fundraising progress, upcoming events, and cancer care initiatives.',

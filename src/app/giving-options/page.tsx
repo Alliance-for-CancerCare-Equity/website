@@ -12,6 +12,7 @@ import { Header } from '@/components/layout/Header'
 import { ImpactCalculator } from '@/components/sections/ImpactCalculator'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/giving-options' },
   title: 'Giving Options',
   description:
     'Donate to ACCE via PayPal, CanadaHelps, Interac e-Transfer, or cheque. Your gift funds cancer treatment for patients who cannot afford care.',

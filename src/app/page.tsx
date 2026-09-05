@@ -12,10 +12,12 @@ import { Footer } from '@/components/layout/Footer'
 import { Hero } from '@/app/home-sections'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/' },
   title: 'Alliance for CancerCare Equity | Advancing Equity in Cancer Care',
   description:
     'Every cancer patient deserves a fighting chance. ACCE funds treatment, supports families, and advances equity in cancer care for underserved communities in Ghana and Canada.',
   openGraph: {
+    url: '/',
     title: 'Alliance for CancerCare Equity | Advancing Equity in Cancer Care',
     description:
       'Every cancer patient deserves a fighting chance. ACCE funds treatment, supports families, and advances equity in cancer care for underserved communities in Ghana and Canada.',

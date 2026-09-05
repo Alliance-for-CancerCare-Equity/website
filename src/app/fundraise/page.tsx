@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header'
 import { InvolvedPage } from '@/components/sections/InvolvedPage'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/fundraise' },
   title: 'Become a Fundraiser',
   description:
     'Start your own fundraising campaign for ACCE. Host events, create online campaigns, and rally your community to support cancer patients in need.',

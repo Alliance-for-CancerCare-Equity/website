@@ -11,6 +11,7 @@ import { getAllEvents } from '@/lib/mdx'
 import { formatDate } from '@/lib/formatDate'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/events' },
   title: 'Events',
   description:
     'Join ACCE at upcoming community events — galas, fundraisers, awareness walks, and more. Connect with our mission to advance cancer care equity.',

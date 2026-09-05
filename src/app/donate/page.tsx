@@ -13,6 +13,7 @@ import { Button } from '@/components/ui/Button'
 const TARGET = '/giving-options'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/giving-options' },
   title: 'Donate',
   description: 'Ways to give to the Alliance for CancerCare Equity.',
   robots: { index: false, follow: true },

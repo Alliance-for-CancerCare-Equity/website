@@ -9,6 +9,7 @@ import { Header } from '@/components/layout/Header'
 // import babyArielImage from '../../../public/ongoing_campaigns/baby_ariel.jpg'
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/ongoing-campaigns' },
   title: 'Ongoing Campaigns',
   description:
     'Support ACCE\'s active fundraising campaigns. See how your donation can directly help cancer patients currently in urgent need of treatment.',

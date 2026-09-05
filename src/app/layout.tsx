@@ -31,14 +31,12 @@ export const metadata: Metadata = {
   creator: 'Alliance for CancerCare Equity (ACCE)',
   publisher: 'Alliance for CancerCare Equity (ACCE)',
   category: 'Charity',
-  alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     title: 'Alliance for CancerCare Equity (ACCE)',
     siteName: 'Alliance for CancerCare Equity',
     description:
       'ACCE is a registered Canadian charity funding cancer treatment, supporting patients and families, and advancing equity in cancer care across Ghana and Canada.',
-    url: '/',
     images: [
       {
         url: '/images/about_us.jpg',
