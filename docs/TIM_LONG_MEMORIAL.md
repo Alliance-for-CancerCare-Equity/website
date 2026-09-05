@@ -13,12 +13,12 @@ Local branch `tim-long-memorial` (never pushed), three commits on top of
 
 | Commit | What | Gated on founder? |
 |---|---|---|
-| `42ca286` | PayPal + CanadaHelps QR codes on `/giving-options` | No — this was his task 1, done |
-| `c939fac` | The memorial page at `/giving-options/tim-long` + "Ways to Give" nav link | **Yes** |
-| `0f34dd4` | `/donate` redirect (URL printed on his poster 404'd) + `NEXT_PUBLIC_SITE_URL` in CI (every og:image shipped as `localhost`) | No — approved by Roger, independent |
+| `42ca286` | PayPal + CanadaHelps QR codes on `/giving-options` | No — **already shipped** to `main` as `a332e4c` (2026-09-04) |
+| `c939fac` | The memorial page at `/giving-options/tim-long` + "Ways to Give" nav link | **Yes — this is the only commit still parked** |
+| `0f34dd4` | `/donate` redirect (URL printed on his poster 404'd) + `NEXT_PUBLIC_SITE_URL` in CI (every og:image shipped as `localhost`) | No — **already shipped** to `main` as `688ac39` (2026-09-04) |
 
-The first and third commits can ship ahead of the memorial page with
-`git cherry-pick 42ca286 0f34dd4` on `main`.
+Rebasing the branch on `main` will drop the two shipped commits automatically
+(identical patches), leaving just the memorial page.
 
 ## Preview
 
